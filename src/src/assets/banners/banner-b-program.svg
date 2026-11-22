@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" fill="none">
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E5F3FF" />
+      <stop offset="100%" stop-color="#FFF4E4" />
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="250" x2="1100" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#005CB9" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#FF7A00" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="360" fill="url(#bgB)" />
+  <path d="M0 250 C 240 220, 480 185, 730 255 C 890 295, 1005 268, 1100 250 L1100 360 L0 360 Z" fill="url(#waveB)" />
+  <path d="M0 250 C 240 220, 480 185, 730 255 C 890 295, 1005 268, 1100 250" stroke="#1CA8FF" stroke-width="5" stroke-linecap="round" opacity="0.75" />
+  <circle cx="1010" cy="68" r="11" fill="#FF7A00" opacity="0.6" />
+
+  <!-- Badge B -->
+  <rect x="74" y="48" width="246" height="44" rx="22" fill="#005CB9" />
+  <text x="197" y="77" text-anchor="middle" fill="#FFFFFF" font-family="Fredoka, Nunito, Arial, sans-serif" font-size="22" font-weight="700">BANNER B • PROGRAM LES</text>
+
+  <!-- Title & Copy -->
+  <text x="74" y="152" fill="#004E9E" font-family="Fredoka, Nunito, Arial, sans-serif" font-size="50" font-weight="700">Jelajahi Program Pilihan</text>
+  <text x="74" y="198" fill="#3E4C5E" font-family="Nunito, Arial, sans-serif" font-size="27" font-weight="700">Computer Basics, Excel &amp; Office, Coding, dan Creative Learning.</text>
+
+  <!-- CTA Pill -->
+  <rect x="74" y="226" width="285" height="58" rx="29" fill="#FF7A00" />
+  <text x="216" y="263" text-anchor="middle" fill="#FFFFFF" font-family="Fredoka, Nunito, Arial, sans-serif" font-size="25" font-weight="700">Jelajahi Program →</text>
+
+  <!-- Illustration right -->
+  <g transform="translate(800, 64)">
+    <rect x="0" y="24" width="210" height="145" rx="22" fill="#FFFFFF" stroke="#005CB9" stroke-width="4" />
+    <rect x="20" y="46" width="76" height="44" rx="10" fill="#1CA8FF" />
+    <rect x="108" y="46" width="82" height="44" rx="10" fill="#FFB800" />
+    <rect x="20" y="102" width="170" height="44" rx="10" fill="#7AC943" opacity="0.88" />
+    <rect x="-14" y="176" width="238" height="18" rx="9" fill="#004E9E" />
+  </g>
+</svg>

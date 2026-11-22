@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" fill="none">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF4E4" />
+      <stop offset="100%" stop-color="#EDFCE7" />
+    </linearGradient>
+    <linearGradient id="waveC" x1="0" y1="250" x2="1100" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7AC943" stop-opacity="0.22" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="360" fill="url(#bgC)" />
+  <path d="M0 250 C 260 205, 510 295, 760 230 C 905 192, 1015 262, 1100 250 L1100 360 L0 360 Z" fill="url(#waveC)" />
+  <path d="M0 250 C 260 205, 510 295, 760 230 C 905 192, 1015 262, 1100 250" stroke="#7AC943" stroke-width="5" stroke-linecap="round" opacity="0.75" />
+  <circle cx="96" cy="74" r="10" fill="#1CA8FF" opacity="0.55" />
+
+  <!-- Badge C -->
+  <rect x="74" y="48" width="256" height="44" rx="22" fill="#FFB800" />
+  <text x="202" y="77" text-anchor="middle" fill="#004E9E" font-family="Fredoka, Nunito, Arial, sans-serif" font-size="22" font-weight="700">BANNER C • TENTANG KAMI</text>
+
+  <!-- Title & Copy -->
+  <text x="74" y="152" fill="#004E9E" font-family="Fredoka, Nunito, Arial, sans-serif" font-size="52" font-weight="700">Kenali KREASIVA Lebih Dekat</text>
+  <text x="74" y="198" fill="#3E4C5E" font-family="Nunito, Arial, sans-serif" font-size="27" font-weight="700">Lihat profil lembaga, visi &amp; misi, serta tim pengajar ramah anak.</text>
+
+  <!-- CTA Pill -->
+  <rect x="74" y="226" width="275" height="58" rx="29" fill="#005CB9" />
+  <text x="211" y="263" text-anchor="middle" fill="#FFFFFF" font-family="Fredoka, Nunito, Arial, sans-serif" font-size="25" font-weight="700">Kenali KREASIVA →</text>
+
+  <!-- Illustration right -->
+  <g transform="translate(835, 58)">
+    <circle cx="95" cy="95" r="88" fill="#FFFFFF" stroke="#FFB800" stroke-width="5" />
+    <path d="M95 36 L112 72 L152 77 L123 105 L130 144 L95 125 L60 144 L67 105 L38 77 L78 72 Z" fill="#FFB800" stroke="#FF7A00" stroke-width="3" stroke-linejoin="round" />
+    <circle cx="164" cy="34" r="12" fill="#1CA8FF" />
+    <circle cx="174" cy="64" r="9" fill="#7AC943" />
+  </g>
+</svg>
