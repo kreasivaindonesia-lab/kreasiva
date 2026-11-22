@@ -1,0 +1,46 @@
+:root {
+  --font-display: 'Fredoka', 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --blue-deep: #004e9e;
+  --blue-primary: #005cb9;
+  --blue-sky: #1ca8ff;
+  --blue-soft: #e6f4ff;
+
+  --orange-primary: #ff7a00;
+  --orange-gold: #ffb800;
+  --orange-soft: #fff4e2;
+
+  --green-spark: #7ac943;
+  --green-soft: #eefae4;
+
+  --slate-text: #3e4c5e;
+  --slate-muted: #5e6b7a;
+
+  --bg-page: #ffffff;
+  --bg-sky: #eef7ff;
+  --border-subtle: rgba(0, 92, 185, 0.14);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: var(--font-body);
+  background-color: var(--bg-page);
+  color: var(--slate-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button {
+  font-family: inherit;
+}
